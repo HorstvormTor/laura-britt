@@ -1,0 +1,10 @@
+# Page will be accessible at http://127.0.0.1:8080
+# Port austauschbar z.B. 127.0.0.1:8081:80
+
+services:
+  webserver:
+    image: httpd:alpine
+    ports:
+      - "127.0.0.1:8081:80"
+    volumes:
+      - ./:/usr/local/apache2/htdocs/

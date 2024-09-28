@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .full-height-white {
@@ -21,6 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .appear-on-scroll {
@@ -30,7 +32,7 @@
     transition: opacity 0.6s ease-out, transform 1.2s ease-out;
     will-change: opacity, visibility;
     max-width: 1100px;
-    margin: 0 2em 0 2em;
+    margin: 2em;
     text-align: center;
 }
 
@@ -44,10 +46,12 @@
 h1 {
     color: white;
     margin: 0 0 1em 0;
+    font-size: 3em;
 }
 
 h2 {
     margin: 0 0 1em 0;
+    font-size: 2em;
 }
 
 .columns {
@@ -70,7 +74,7 @@ img {
 .small-img {
     width: 70px;
     animation: MoveUpDown 1s linear infinite;
-    margin: 20px 0 20px 0;
+    margin: 40px 0 40px 0;
 }
 
 @keyframes MoveUpDown {
@@ -114,12 +118,72 @@ iframe {
 }
 
 .footer nav a:hover {
-    color: #d1b1b1;
+    color: #a6a1a1;
+}
+
+.website-screenshot {
+    box-shadow: 0 0 10px #a6a1a1;
+}
+
+.spacer-20 {
+    min-height: 20px;
+}
+
+div {
+    align-content: center;
+}
+
+.ich {
+    border-radius: 7px;
+    margin: 40px 0 40px 0;
+}
+
+.cookie-banner-outer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: white;
+    box-shadow: 0 -2px 5px 0 #a6a1a1;
+
+}
+
+.cookie-banner-outer.hidden {
+    display: none;
+}
+
+.cookie-banner-inner {
+    width: 100%;
+    padding: 40px 15px 40px 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1100px;
+    box-sizing: border-box;
+}
+
+.button-on-white {
+    padding: 7px 25px 7px 25px;
+    background-color: #d92929;
+    border-radius: 0.4em;
+    border-style: solid;
+    border-width: 1px;
+    font-size: large;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    margin: 10px 20px 10px 20px;
+}
+
+.button-on-white:hover {
+    background-color: #a6a1a1;
 }
 
 @media screen and (max-width: 800px) {
     .desktop {
         display: none;
+    }
+    .full-height-white {
+        height: 100%;
     }
 }
 
@@ -128,3 +192,4 @@ iframe {
         display: none;
     }
 }
+
