@@ -67,6 +67,14 @@ h2 {
     width: 33.3%;
 }
 
+.equal-column-quarter {
+    width: 25%;
+}
+
+.float {
+    float: left;
+}
+
 img {
     width: 100%;
 }
@@ -128,6 +136,11 @@ iframe {
 .spacer-20 {
     min-height: 20px;
 }
+
+.spacer-40 {
+    min-height: 40px;
+}
+
 
 div {
     align-content: center;
